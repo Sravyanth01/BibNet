@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand{
+  font-weight: bold;
+  color: rgb(165, 32, 217) !important;
+  font-family: Poppins;       
+  margin:0; 
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0; /* Adjusted padding for better spacing */
+  font-size: 1.25rem;
+  width: 100%;
+  position: fixed; /* Keeps the footer fixed at the bottom */
+  bottom: 0; /* Anchors the footer to the bottom of the screen */
+  left: 0; /* Ensures the footer stretches across the entire width */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 180px; /* Ensures the footer is above other elements if needed */
+}
+
+
+footer .brand-name {
+  text-align: right; 
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+footer .footer-text {
+  flex-grow: 1;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 15px; /* Space between social media icons */
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons a {
+  color: white;
+  font-size: 20px;
+}
+
+footer .social-icons a:hover {
+  color: rgb(165, 32, 217);
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+}
+
